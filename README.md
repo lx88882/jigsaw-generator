@@ -10,7 +10,7 @@ If you are using a Debian or Ubuntu system, you should be able to
 install this software using a command such as:
 
 ```
-apt install jigsaw-generator
+sudo apt install jigsaw-generator
 ```
 
 which will also install all prerequisites.  If you are installing on a
