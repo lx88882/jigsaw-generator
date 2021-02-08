@@ -398,10 +398,10 @@ def img2tex(text):
     while images:
         caption, img = images.groups()
         if caption:
-            text = img_re.sub(r'\imagecap{%s}{%s}' % (img, caption),
+            text = img_re.sub(r'\\imagecap{%s}{%s}' % (img, caption),
                               text, count=1)
         else:
-            text = img_re.sub(r'\image{%s}' % img, text, count=1)
+            text = img_re.sub(r'\\image{%s}' % img, text, count=1)
 
         images = img_re.search(text)
 

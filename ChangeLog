@@ -1,3 +1,7 @@
+2021-02-08  Julian Gilbey  <jdg@debian.org>
+
+        * Fix regex substitutions for stricter Python 3.6 behaviour
+
 2021-01-28  Julian Gilbey  <jdg@debian.org>
 
         * Update appdirs.py to latest upstream version
